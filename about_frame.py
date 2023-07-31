@@ -52,7 +52,7 @@ def create_about():
 
     link1 = ttk.Label(root, text="GitHub",cursor="hand2",font=("Arial", 16))
     link1.pack(pady=(18,0))
-    link1.bind("<Button-1>", lambda e: callback("https://github.com/a-minotto/PolyWeight_test"))
+    link1.bind("<Button-1>", lambda e: callback("https://github.com/a-minotto/PolyWeight"))
     link1.config(underline=True,foreground='blue')
 
     link2 = ttk.Label(root, text="License",cursor="hand2",font=("Arial", 16))
