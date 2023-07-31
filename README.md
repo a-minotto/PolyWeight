@@ -12,16 +12,15 @@ It is recommended to use Anaconda (or Miniconda) to install the required package
 
 * Open Anaconda Prompt (Windows) or a terminal window (Linux or MacOS);
 
-* Get the code and all the necessary folders and files:
+* Download the code and all the necessary folders and files:
 ```
 git clone https://github.com/a-minotto/PolyWeight.git
 ```
 
-* If you haven't installed GitHub yet, install it first
+* If you choose to use the command above, you may need to install the package first:
 ```
 conda install git
 ```
-and then use the command above
 
 * Navigate to the PolyWeight directory:
 ```
