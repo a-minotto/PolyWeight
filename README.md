@@ -10,12 +10,20 @@ such as M<sub>n</sub>, M<sub>w</sub>, and M<sub>z</sub>.
 
 It is recommended to use Anaconda (or Miniconda) to install the required packages and dependencies. Installation instructions for Miniconda (recommended) can be found [here](https://docs.conda.io/en/latest/miniconda.html). It is advisable creating and using a [`conda` environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
+* Open Anaconda Prompt (Windows) or a terminal window (Linux or MacOS);
+
 * Get the code and all the necessary folders and files:
 ```
 git clone https://github.com/a-minotto/PolyWeight.git
 ```
 
-* Open Anaconda Prompt (Windows) or a terminal window (Linux or MacOS) and navigate to the PolyWeight directory:
+* If you haven't installed GitHub yet, install it first
+```
+conda install git
+```
+and then use the command above
+
+* Navigate to the PolyWeight directory:
 ```
 cd /path/to/PolyWeight
 ```
@@ -58,7 +66,7 @@ pip install -r requirements.txt
 
 Run the program:
 ```
-python3 PolyWeight.py
+python PolyWeight.py
 ```
 
 For more details about the software, its functionalities, commands, files, etc., open the _"Help!"_ window of the program by clicking on the `Help` button on the top button menu or check the User Manual.
